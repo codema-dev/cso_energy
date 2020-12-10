@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "cso_energy"
+version = "0.1.0"
+description = "A sandbox and Python library for automating downloading wrangling of energy-related Irish Central Statistics Office (CSO) data"
+authors = ["Rowan Molony <rowan.molony@codema.ie>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6 || ^3.7 || ^3.8 || ^3.9"
+pandas = "^1.1.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
